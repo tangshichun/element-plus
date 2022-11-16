@@ -114,6 +114,10 @@ export const treeProps = buildProps({
     type: Boolean,
     default: true,
   },
+  itemSize: {
+    type: Number,
+    default: 26
+  }
 } as const)
 
 export const treeNodeProps = buildProps({

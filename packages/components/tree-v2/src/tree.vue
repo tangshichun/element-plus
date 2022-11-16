@@ -56,8 +56,6 @@ const emit = defineEmits(treeEmits)
 
 const slots = useSlots()
 
-const itemSize = 26
-
 provide(ROOT_TREE_INJECTION_KEY, {
   ctx: {
     emit,
